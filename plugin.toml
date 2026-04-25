@@ -1,0 +1,16 @@
+[plugin]
+name = "fledge-plugin-tz"
+version = "0.1.0"
+description = "Timezone utility — show, convert, and manage saved zones across distributed teams. Built in Rust."
+author = "0xLeif"
+license = "MIT"
+
+[[commands]]
+name = "tz"
+description = "Show, convert, and manage timezone preferences"
+binary = "target/release/fledge-tz"
+
+[capabilities]
+exec = false
+store = false
+metadata = false
