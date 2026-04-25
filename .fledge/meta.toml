@@ -1,0 +1,28 @@
+[source]
+template = "rust-cli"
+fledge_version = "0.15.3"
+created = "2026-04-25"
+
+[variables]
+author = "0xLeif"
+date = "2026-04-25"
+description = "A new Rust CLI"
+github_org = "CorvidLabs"
+license = "MIT"
+project_name = "fledge-plugin-tz"
+project_name_camel = "fledgePluginTz"
+project_name_kebab = "fledge-plugin-tz"
+project_name_pascal = "FledgePluginTz"
+project_name_snake = "fledge_plugin_tz"
+year = "2026"
+
+[files]
+".github/workflows/ci.yml" = "f68bd2e929b8a014d11f9a232b3fbfddc83bef1b2c53854b9b8aa634ab3b7f8e"
+".github/workflows/release.yml" = "bbbb3d6ed936d1595e0b0f5209b9192d7cebffcdaabde7ef10d6fe1a2f10e0c3"
+".gitignore" = "2ebe6cb6f5289849dce5a8a6cdd77e06b1385302c862982f8e181c4782d19214"
+"CLAUDE.md" = "66c26f776b37f7801ff65d06bc24cc9049bc35eb82efe40514992f5e814ac55e"
+"Cargo.toml" = "039bc0abb4cc39d4ee8ae126f7ac1d798a8d5b99498871070bf9ebda7f2ce4b9"
+LICENSE = "2575ff28cb04763f17ce392823ce091f734e337369e3138a6b9b588c4816f2a1"
+"README.md" = "8addf69ba28bf28ed4ca8d9ff9e02aefe2ec3276d8199be47c0f8fbb5d52899c"
+"fledge.toml" = "7ca2f7bd54545a15f7c2110e0cf9297d8c8d606c992462e34bf268be82f34643"
+"src/main.rs" = "e210daff617a6c29f891dcd1e096768f7de761d0470c50f85d713e363836a6c7"

@@ -1,0 +1,16 @@
+# fledge-plugin-tz
+
+A new Rust CLI
+
+## Build & Test
+
+```bash
+cargo build
+cargo test
+cargo clippy -- -D warnings
+cargo fmt --check
+```
+
+## Architecture
+
+- `src/main.rs` — CLI entry point (clap derive)
