@@ -178,17 +178,16 @@ fn parse_naive_time(input: &str) -> Result<NaiveDateTime> {
     }
 
     let lower = trimmed.to_lowercase().replace(' ', "");
-    let (time_part, am_pm_offset): (&str, u32) =
-        if let Some(stripped) = lower.strip_suffix("pm") {
-            (stripped, 12)
-        } else if let Some(stripped) = lower.strip_suffix("am") {
-            (stripped, 0)
-        } else {
-            bail!(
-                "Could not parse time '{}'. Try formats like '3pm', '15:00', or '2026-04-25 09:30'.",
-                input
-            );
-        };
+    let (time_part, am_pm_offset): (&str, u32) = if let Some(stripped) = lower.strip_suffix("pm") {
+        (stripped, 12)
+    } else if let Some(stripped) = lower.strip_suffix("am") {
+        (stripped, 0)
+    } else {
+        bail!(
+            "Could not parse time '{}'. Try formats like '3pm', '15:00', or '2026-04-25 09:30'.",
+            input
+        );
+    };
 
     let (hour, minute): (u32, u32) = if let Some((h, m)) = time_part.split_once(':') {
         let h: u32 = h

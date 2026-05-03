@@ -33,12 +33,12 @@ jobs:
         if: runner.os != 'Windows'
         run: |
           cd target/${{ matrix.target }}/release
-          tar czf ../../../fledge-plugin-tz-${{ matrix.target }}.tar.gz fledge-plugin-tz
+          tar czf ../../../fledge-plugin-tz-${{ matrix.target }}.tar.gz fledge-tz
       - name: Package (Windows)
         if: runner.os == 'Windows'
         run: |
           cd target/${{ matrix.target }}/release
-          7z a ../../../fledge-plugin-tz-${{ matrix.target }}.zip fledge-plugin-tz.exe
+          7z a ../../../fledge-plugin-tz-${{ matrix.target }}.zip fledge-tz.exe
       - uses: softprops/action-gh-release@v2
         with:
           files: |
