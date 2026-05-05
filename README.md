@@ -27,6 +27,17 @@ fledge tz convert "2026-04-25 09:30 UTC" Local PST
 
 Anything else is treated as an IANA zone name (e.g. `Africa/Cairo`, `America/Sao_Paulo`).
 
+## Development
+
+```bash
+cargo build            # compile
+cargo test             # run tests
+cargo clippy -- -D warnings
+cargo fmt --check
+```
+
+Requires Rust 1.89+. See `CLAUDE.md` for architecture notes.
+
 ## License
 
 MIT
