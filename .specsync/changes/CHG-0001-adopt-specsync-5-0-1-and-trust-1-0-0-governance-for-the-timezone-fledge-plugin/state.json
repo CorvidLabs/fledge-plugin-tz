@@ -29,14 +29,7 @@
   "no_spec_change": false,
   "no_spec_change_rationale": null,
   "acceptance_criteria": [
-    "Strict SpecSync coverage is 100 percent; Claude",
-    "Cursor",
-    "Codex",
-    "and Gemini integrations are installed; Trust doctor passes; formatting",
-    "Clippy",
-    "eight tests",
-    "release build",
-    "and help smoke checks pass"
+    "Strict SpecSync coverage is 100 percent; Claude, Cursor, Codex, and Gemini integrations are installed; Trust doctor passes; formatting, Clippy, eight tests, release build, and help smoke checks pass"
   ],
   "selected_artifacts": [
     "context",
