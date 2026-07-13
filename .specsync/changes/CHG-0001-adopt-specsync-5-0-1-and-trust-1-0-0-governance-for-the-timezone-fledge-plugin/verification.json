@@ -1,0 +1,17 @@
+{
+  "timestamp": 1783954690,
+  "commit": "9ede460f3ea53c08d6495119e5c9afada94614a4",
+  "contract_digest": "8871dd0f3e59ed96bf77cf3579fab8fc9a37b5f5ed1d321f0b11574576975eda",
+  "workspace_digest": "a65811242fcee27fcb09e76a738e8a1e1c923e85e3a1cd8c34b62de457bee618",
+  "passed": false,
+  "commands": [
+    {
+      "command": "fledge lanes run verify",
+      "success": true,
+      "exit_code": 0
+    }
+  ],
+  "requirement_ids": [
+    "REQ-tz-001"
+  ]
+}

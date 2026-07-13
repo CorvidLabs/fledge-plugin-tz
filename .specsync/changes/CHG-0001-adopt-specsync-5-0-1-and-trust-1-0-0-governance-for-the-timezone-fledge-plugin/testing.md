@@ -13,3 +13,5 @@ artifact: testing
 - `cargo build --release`
 - Root and convert-command help smoke checks
 - `fledge trust doctor`
+
+The eight alias, IANA, parsing, and rejection unit cases provide command evidence for REQ-tz-001.
