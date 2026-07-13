@@ -6,8 +6,10 @@ artifact: tasks
 # Tasks
 
 - [x] Review existing source, tests, CI matrix, release packaging, and Pages workflow.
-- [x] Add the active timezone spec and stable requirement IDs.
+- [x] Draft the timezone spec and stable requirement IDs.
 - [x] Install Claude, Cursor, Codex, and Gemini integrations.
 - [x] Add Trust, Augur, Attest, Fledge lane, and immutable workflow configuration.
-- [x] Run strict SpecSync and native verification.
-- [ ] Obtain definition and closing approvals from an authorized reviewer.
+- [x] Run native verification locally.
+- [ ] Obtain definition approval and activate the governed lifecycle.
+- [ ] Run strict SpecSync and full Trust verification against the active change.
+- [ ] Obtain closing approval after the acceptance evidence is recorded.
