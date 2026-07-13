@@ -20,6 +20,13 @@
       "timestamp": 1783954812,
       "digest": "9db3f00e0c77c9b6904e70e436f8990608978b1dfc193f287d19673c0eb8f2c5",
       "note": "Fresh definition approval after exact requirement-ID evidence mapping was added at the committed implementation head."
+    },
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783955321,
+      "digest": "9db3f00e0c77c9b6904e70e436f8990608978b1dfc193f287d19673c0eb8f2c5",
+      "note": "Fresh definition approval after canonical structured requirements were aligned to the verified stable IDs."
     }
   ]
 }
