@@ -1,0 +1,5 @@
+[registry]
+name = "fledge-plugin-tz-trust-wave6"
+
+[specs]
+tz = "specs/tz/tz.spec.md"
