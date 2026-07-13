@@ -8,6 +8,9 @@ spec: tz.spec.md
 
 The plugin SHALL display current time for saved, explicitly supplied, local, UTC, alias, and valid IANA zones.
 
+Acceptance Criteria
+- Existing unit tests verify documented PST and JST aliases resolve and explicit valid IANA zone names pass through unchanged.
+
 ### REQ-tz-002
 
 The plugin SHALL convert supported time forms to one or more target zones without changing the represented instant.
