@@ -1,9 +1,9 @@
 {
-  "timestamp": 1783954690,
-  "commit": "9ede460f3ea53c08d6495119e5c9afada94614a4",
-  "contract_digest": "8871dd0f3e59ed96bf77cf3579fab8fc9a37b5f5ed1d321f0b11574576975eda",
+  "timestamp": 1783954836,
+  "commit": "0c8c31c456bcfc70f99929eabae8570c78dd60d3",
+  "contract_digest": "9db3f00e0c77c9b6904e70e436f8990608978b1dfc193f287d19673c0eb8f2c5",
   "workspace_digest": "a65811242fcee27fcb09e76a738e8a1e1c923e85e3a1cd8c34b62de457bee618",
-  "passed": false,
+  "passed": true,
   "commands": [
     {
       "command": "fledge lanes run verify",
